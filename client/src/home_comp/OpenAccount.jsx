@@ -8,7 +8,7 @@ const OpenAccount=()=>{
  return (
     <>
     <div>
-    <div>
+    <div id="hero">
         <h1>Open a Zerodha account</h1>
         <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p>
         <button onClick={RedirectToSignup}>Signup For Free</button>
