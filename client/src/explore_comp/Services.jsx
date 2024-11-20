@@ -2,23 +2,25 @@ import './explore_comp.css'
 const Services=()=>{
   return (
     <>
-
             {/* service's section */}
-            <div> 
-               <div>
-                {/*use a Investment logo or image */}
-                <img src="" alt="" />
-               <h2>Investment Trust</h2>
+            
+            <div className="service"> 
+            <h1>Services Provided</h1>
+            <div className="card1">
+               <div className="services" >
+                <img src="logo\investment.png" alt=""/>
+               <h3>Investment Trust</h3>
                </div>
-               <div>
-                {/*use a etf logo or image */}
-                <h2>Etf</h2>
+               <div className="services">
+               <img src="logo\etf.png" alt="" />
+                <h3>Etf</h3>
                </div>
-               <div>
-                {/*use a stocks logo or image */}
-                <h2>Stocks</h2>
+               <div className="services">
+               <img src="logo\stocks.png" alt="" />
+                <h3>Stocks</h3>
                </div>
-            </div>
+               </div>
+            </div><br/>
 
     </>
   )
