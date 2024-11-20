@@ -2,7 +2,6 @@ import './explore_comp.css'
 const Services=()=>{
   return (
     <>
-
             {/* service's section */}
             <div> 
                <div>
